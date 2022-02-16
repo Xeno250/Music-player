@@ -1,5 +1,5 @@
 class Song:
-  def __init__(self):
-    self.name = "Jingle bel"
-    self.duration = 200
+  def __init__(self, name, duration):
+    self.name = name
+    self.duration = duration
     

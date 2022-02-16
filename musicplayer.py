@@ -1,12 +1,8 @@
 from album import Album
+from song import Song
 
 class MusicPlayer:
-  def __init__(self):
-    self.albums = [
-      Album()
-    ]
-
-  def play(self):
-    for album in self.albums:
+  def play(self, albums):
+    for album in albums:
       for song in album.songs:
         print(f"Playing: {song.name}")
